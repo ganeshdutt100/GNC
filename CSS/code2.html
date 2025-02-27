@@ -107,6 +107,49 @@
         .buttonDiv {
             margin-top: 20px;
         }
+
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+            /* border: 1px solid white; */
+        }
+
+        /* .sec2 */
+        .sec2 {}
+
+        .empty {
+            width: 300px;
+            height: 4px;
+            background-color: red;
+            margin: auto;
+            border-radius: 50%;
+
+        }
+
+        .card1 {
+            width: 300px;
+            height: 200px;
+            background-image: url('https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?uid=R168473893&ga=GA1.1.671956177.1737693396&semt=ais_hybrid');
+
+            color: white;
+            padding: 30px;
+            border-radius: 30px;
+        }
+
+        .videTag {
+            width: 300px;
+            height: 200px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+
+        }
     </style>
 </head>
 
@@ -132,7 +175,9 @@
             <h1>Lorem ipsum dolor sit amet.</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A neque error eos modi nesciunt quasi
                 accusantium mollitia totam nemo? Numquam provident quas maiores veritatis magni ullam iusto voluptatem
-                ut aspernatur!s</p>
+                ut aspernatur!s
+
+            </p>
             <div class="buttonDiv">
                 <button class="btn">Click me </button>
                 <button class="btn">Click me </button>
@@ -143,6 +188,32 @@
         </div>
     </div>
 
+
+
+    <!-- .sec2 -->
+    <div class="sec2">
+        <h1 style="text-align: center;">Lorem ipsum dolor sit amet.</h1>
+
+        <div class="empty"></div>
+
+
+        <div class="cards">
+            <div class="card1">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere asperiores architecto facilis illum
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A neque error eos modi nesciunt quasi
+                    accusantium mollitia totam nemo? Numquam provident quas maiores veritatis magni ullam iusto
+                    voluptatem
+                    ut aspernatur!s
+                    voluptatibus suscipit nostrum maiores! Fugiat nulla, ab voluptas deserunt laboriosam exercitationem
+                    odio doloremque, fuga accusamus repellendus et?</p>
+            </div>
+
+
+            <video
+                src="https://videocdn.cdnpk.net/videos/3f5e7026-5ea6-4eca-8511-85b4c24d8374/horizontal/previews/clear/small.mp4?token=exp=1740640273~hmac=dd205989e2fcc37af522f7f79ea7446eeb1ccdfc446b4effed3346b9ef435c74"
+                controls class="videTag"></video>
+        </div>
+    </div>
 </body>
 
 </html>
